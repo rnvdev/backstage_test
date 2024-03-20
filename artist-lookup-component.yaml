@@ -33,7 +33,7 @@ metadata:
 spec:
   type: service
   lifecycle: experimental
-  owner: guest
+  owner: guests
   system: artist-engagement-portal
   dependsOn: ['resource:artists-db']
   apiConsumedBy: ['component:www-artist']
